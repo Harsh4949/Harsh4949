@@ -1,0 +1,33 @@
+//area of rectangle
+
+ #include<stdio.h>
+
+
+
+int main()
+
+{
+
+   int a,b;
+
+//a=50;
+
+//b=100;
+
+   printf("enter the length of rectangle : ");
+
+    scanf("%d",&a);
+
+    printf("enter the  of rectangle :");
+
+    scanf("%d",&b);
+
+    
+
+    float area = (a*b);
+
+    printf("The area of rectangle is : %f",area);
+
+   
+
+    return 0;
