@@ -1,0 +1,43 @@
+//area of trangle
+
+#include <stdio.h>
+
+
+
+int main()
+
+{
+
+    int a,b;
+
+    float area;
+
+    //a=40;
+
+    //b=50;
+
+    printf("enter the base of trangle :");
+
+  scanf("%d",&a);
+
+  
+
+  printf("enter the height of trangle :");
+
+  scanf("%d",&b);
+
+  
+
+  area=(a*b/2);
+
+  printf("the area of trangle is :%f",area);
+
+    
+
+    
+
+
+
+    return 0;
+
+}
