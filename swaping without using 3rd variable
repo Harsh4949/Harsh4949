@@ -1,0 +1,26 @@
+//swaping without using 3rd variable
+#include <stdio.h>
+
+int
+main ()
+{
+  int a, b;
+
+  //a=100;
+  //b=50;
+  //use both
+  printf ("enter the frist number for swaping :a= \n");
+  scanf ("%d", &a);
+
+  printf ("enter the frist second for swaping :b=\n");
+  scanf ("%d", &b);
+
+  printf ("the values of before swaping is \n a=%d \t b=%d \n", a, b);
+
+  a = a + b;
+  b = a - b;
+  a = b - a;
+
+  printf ("the values of before swaping is \n a=%d \t b=%d \n", a, b);
+  return 0;
+}
